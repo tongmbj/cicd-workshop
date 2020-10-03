@@ -7,6 +7,8 @@ We will be using Travis-CI and Coveralls in order to create a continuous integra
 
 [Setting up Coveralls with Express](https://github.com/istanbuljs/nyc/blob/master/docs/setup-coveralls.md)
 
+Let's first start by setting up our .travis.yml file, and updating our package.json to use coveralls
+
 ## Tasks
 The first task for this workshop will be to add a route that will multiply two numbers. We will start by only creating the test for this route.
 

@@ -9,6 +9,8 @@ We will be using Travis-CI and Coveralls in order to create a continuous integra
 
 Let's first start by setting up our .travis.yml file, and updating our package.json to use coveralls
 
+Next, let's add status checks to all branches. This will ensure that we cannot merge in code that has not been tested.
+
 ## Tasks
 The first task for this workshop will be to add a route that will multiply two numbers. We will start by only creating the test for this route.
 
